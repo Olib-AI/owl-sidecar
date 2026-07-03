@@ -49,6 +49,9 @@ Owl Sidecar ships for macOS (Apple Silicon), Windows (x64), and Linux (x64 and a
 
 ### Linux
 
+The Linux build is a command-line binary for servers, with no desktop GUI and
+`libc6` as its only dependency. Pair it once and run it headless.
+
 Debian and Ubuntu based systems can install the package:
 
 ```sh

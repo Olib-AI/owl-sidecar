@@ -69,9 +69,11 @@ than the app.
 2. Extract it: `tar -xzf owl-sidecar-0.1.0-x86_64.tar.gz`
 3. Move the binary somewhere on your `PATH`, for example `~/.local/bin/`.
 
-The GUI needs a desktop with the usual graphics and font libraries. The `.deb`
-lists them as dependencies. On a headless server, run the node without the
-window using `owl-sidecar run --headless`.
+The Linux build is a command-line binary with no desktop GUI, built for
+servers. It depends only on `libc6` and runs on a bare machine with no display.
+Pair it once and run it with `owl-sidecar run --headless`, or enable the systemd
+user service above. The desktop app with the tray and window ships on macOS and
+Windows.
 
 ## Verify it runs
 
