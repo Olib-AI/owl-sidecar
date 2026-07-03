@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an improvement for Owl Sidecar
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem?
+      description: What would you like Owl Sidecar to do that it does not do today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Owl Sidecar to do?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Tools, paths, or sizes involved. The more concrete, the better.
+    validations:
+      required: false

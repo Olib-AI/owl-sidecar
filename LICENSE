@@ -1,0 +1,70 @@
+Owl Sidecar End User License Agreement
+
+Copyright (c) 2026 Olib AI LLC. All rights reserved.
+
+This License Agreement ("Agreement") governs your use of Owl Sidecar, including
+the application, the command-line tool, and any accompanying files (the
+"Software"). By downloading, installing, or using the Software, you agree to
+these terms. If you do not agree, do not install or use the Software.
+
+1. Grant of License
+
+Olib AI LLC grants you a personal, non-exclusive, non-transferable, revocable
+license to download, install, and use the Software on devices you own or
+control, free of charge, for your own personal or internal business use, in
+connection with an Owl account you are authorized to use.
+
+2. Restrictions
+
+You may not:
+
+  (a) sell, rent, lease, sublicense, distribute, or otherwise make the Software
+      available to any third party;
+  (b) reverse engineer, decompile, disassemble, or otherwise attempt to derive
+      the source code of the Software, except to the extent this restriction is
+      prohibited by applicable law;
+  (c) modify, adapt, or create derivative works of the Software;
+  (d) remove, alter, or obscure any proprietary notices on the Software;
+  (e) use the Software to build or train a competing product.
+
+3. Ownership
+
+The Software is licensed, not sold. Olib AI LLC retains all right, title, and
+interest in and to the Software, including all intellectual property rights. The
+source code of the Software is proprietary and is not provided under this
+Agreement.
+
+4. Acceptable Use
+
+The Software routes network traffic through a device you operate. You are
+responsible for how you use it and for making sure your use complies with
+applicable law, with the terms of the networks and services you connect to, and
+with the acceptable use policy of your Owl account. You must only pair devices
+and connections you are authorized to use. Olib AI LLC is not responsible for
+your use of the Software or for the content of the traffic you route through it.
+
+5. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+6. Limitation of Liability
+
+IN NO EVENT SHALL OLIB AI LLC BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+7. Termination
+
+This Agreement is effective until terminated. It terminates automatically if you
+breach any term. On termination, you must stop using the Software and remove all
+copies.
+
+8. Governing Law
+
+This Agreement is governed by the laws of the State of Georgia, United States,
+without regard to its conflict of law provisions.
+
+Contact: hello@olib.ai

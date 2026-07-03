@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: mailto:security@olib.ai
+    about: Report a vulnerability privately.
+  - name: Email Olib AI
+    url: mailto:hello@olib.ai
+    about: Questions, licensing, and anything that is not a bug or request.

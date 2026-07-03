@@ -1,0 +1,63 @@
+name: Bug report
+description: Something went wrong with Owl Sidecar
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. For anything involving a security concern,
+        please email security@olib.ai instead of filing here.
+  - type: input
+    id: version
+    attributes:
+      label: Owl Sidecar version
+      description: From the app, or `owl-sidecar --version`.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS (Apple Silicon)
+        - Windows (x64)
+        - Linux (x64)
+        - Linux (arm64)
+    validations:
+      required: true
+  - type: input
+    id: osversion
+    attributes:
+      label: OS version
+      placeholder: "macOS 15.5, Windows 11 23H2, Ubuntu 24.04, ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did it happen?
+      options:
+        - The app
+        - The command-line tool
+        - Pairing
+        - Staying connected
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did Owl Sidecar do instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Owl Sidecar
+        2. Pair with a code
+        3. ...
+    validations:
+      required: true
