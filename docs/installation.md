@@ -8,7 +8,7 @@ to your account.
 
 ## macOS
 
-1. Download `owl-sidecar-macos-arm64.tar.gz` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
+1. Download `owl-sidecar-0.1.0-macos-arm64.tar.gz` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
 2. Double-click the tarball to extract `OwlSidecar.app`.
 3. Move `OwlSidecar.app` to your Applications folder.
 4. Open it.
@@ -18,7 +18,7 @@ opens without a right-click override and without a quarantine warning.
 
 ## Windows
 
-1. Download `owl-sidecar-0.1.0-x64.zip` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
+1. Download `owl-sidecar-0.1.0-windows-x64.zip` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
 2. Extract the zip.
 3. Run `owl-sidecar.exe`.
 
@@ -32,8 +32,8 @@ on "Start at login" from the app so it comes back after a reboot.
 Download the package for your architecture and install it:
 
 ```sh
-sudo dpkg -i owl-sidecar_0.1.0_amd64.deb    # Intel and AMD
-sudo dpkg -i owl-sidecar_0.1.0_arm64.deb    # ARM
+sudo dpkg -i owl-sidecar-0.1.0-linux-amd64.deb    # Intel and AMD
+sudo dpkg -i owl-sidecar-0.1.0-linux-arm64.deb    # ARM
 ```
 
 If dpkg reports missing dependencies, pull them in with:
@@ -65,8 +65,8 @@ than the app.
 
 ### Tarball
 
-1. Download `owl-sidecar-0.1.0-x86_64.tar.gz` (or `-aarch64` on ARM).
-2. Extract it: `tar -xzf owl-sidecar-0.1.0-x86_64.tar.gz`
+1. Download `owl-sidecar-0.1.0-linux-x86_64.tar.gz` (or `-linux-aarch64` on ARM).
+2. Extract it: `tar -xzf owl-sidecar-0.1.0-linux-x86_64.tar.gz`
 3. Move the binary somewhere on your `PATH`, for example `~/.local/bin/`.
 
 The Linux build is a command-line binary with no desktop GUI, built for

@@ -8,7 +8,7 @@
 # ~/.local/bin/owl-sidecar. Works on macOS (Apple Silicon) and Linux (x64,
 # arm64). On macOS it also clears the quarantine flag.
 #
-# To install the macOS app instead, download owl-sidecar-macos-arm64.tar.gz
+# To install the macOS app instead, download owl-sidecar-<version>-macos-arm64.tar.gz
 # from the releases page and move OwlSidecar.app to /Applications. The app is
 # notarized and needs no extra steps. On Windows, download the zip and run
 # owl-sidecar.exe.
@@ -38,7 +38,6 @@ cpu="$(uname -m)"
 case "$os" in
   Darwin)
     [ "$cpu" = "arm64" ] || [ "$cpu" = "aarch64" ] || die "macOS build is Apple Silicon only (your CPU is $cpu)"
-    ASSET="owl-sidecar-macos-arm64.tar.gz"
     IS_MAC=1
     ;;
   Linux)
@@ -66,8 +65,10 @@ fi
 VER="${TAG#v}"
 say "installing ${TAG}"
 
-if [ "$IS_MAC" = "0" ]; then
-  ASSET="owl-sidecar-${VER}-${UARCH}.tar.gz"
+if [ "$IS_MAC" = "1" ]; then
+  ASSET="owl-sidecar-${VER}-macos-arm64.tar.gz"
+else
+  ASSET="owl-sidecar-${VER}-linux-${UARCH}.tar.gz"
 fi
 URL="https://github.com/${REPO}/releases/download/${TAG}/${ASSET}"
 

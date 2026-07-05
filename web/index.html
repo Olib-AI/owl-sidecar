@@ -53,8 +53,8 @@
       .nav-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--text); }
       .nav-brand img { width: 28px; height: 28px; }
       .nav-links { display: flex; align-items: center; gap: 22px; }
-      .nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; }
-      .nav-links a:hover { color: var(--text); text-decoration: none; }
+      .nav-links a:not(.btn) { color: var(--muted); font-size: 14px; font-weight: 500; }
+      .nav-links a:not(.btn):hover { color: var(--text); text-decoration: none; }
       @media (max-width: 720px) { .nav-links a:not(.btn) { display: none; } }
 
       .hero { text-align: center; padding: 84px 0 64px; }
