@@ -18,7 +18,20 @@ opens without a right-click override and without a quarantine warning.
 
 ## Windows
 
-1. Download `owl-sidecar-0.1.0-windows-x64.zip` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
+### Installer (recommended)
+
+1. Download `owl-sidecar-0.1.0-windows-x64-setup.exe` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
+2. Run it. The installer places Owl Sidecar under your user profile, adds a
+   Start-menu shortcut (and an optional desktop shortcut), and can enable
+   "Start at login" so the exit node comes back after a reboot.
+3. Launch it from the Start menu. It runs in the system tray with no console window.
+
+The installer is not yet code-signed, so SmartScreen may warn on first run —
+choose "More info" then "Run anyway". Uninstall any time from Settings > Apps.
+
+### Portable zip
+
+1. Download `owl-sidecar-0.1.0-windows-x64.zip`.
 2. Extract the zip.
 3. Run `owl-sidecar.exe`.
 

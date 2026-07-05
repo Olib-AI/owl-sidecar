@@ -44,8 +44,10 @@ Owl Sidecar ships for macOS (Apple Silicon), Windows (x64), and Linux (x64 and a
 
 ### Windows
 
-1. Download `owl-sidecar-0.1.0-windows-x64.zip` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
-2. Extract it and run `owl-sidecar.exe`.
+1. Download `owl-sidecar-0.1.0-windows-x64-setup.exe` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
+2. Run the installer. It adds a Start-menu shortcut (and an optional desktop shortcut), and can start Owl Sidecar automatically at login. Uninstall any time from Settings > Apps.
+
+Prefer a portable build? Download `owl-sidecar-0.1.0-windows-x64.zip`, extract it, and run `owl-sidecar.exe` directly.
 
 ### Linux
 
