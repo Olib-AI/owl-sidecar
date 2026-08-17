@@ -38,16 +38,16 @@ Owl Sidecar ships for macOS (Apple Silicon), Windows (x64), and Linux (x64 and a
 
 ### macOS
 
-1. Download `owl-sidecar-0.1.0-macos-arm64.tar.gz` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
+1. Download `owl-sidecar-0.2.0-macos-arm64.tar.gz` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
 2. Extract it and move `OwlSidecar.app` to your Applications folder.
 3. Open it. The app is signed with the Olib AI Apple Developer ID and notarized by Apple, so it opens without a Gatekeeper override.
 
 ### Windows
 
-1. Download `owl-sidecar-0.1.0-windows-x64-setup.exe` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
+1. Download `owl-sidecar-0.2.0-windows-x64-setup.exe` from the [latest release](https://github.com/Olib-AI/owl-sidecar/releases/latest).
 2. Run the installer. It adds a Start-menu shortcut (and an optional desktop shortcut), and can start Owl Sidecar automatically at login. Uninstall any time from Settings > Apps.
 
-Prefer a portable build? Download `owl-sidecar-0.1.0-windows-x64.zip`, extract it, and run `owl-sidecar.exe` directly.
+Prefer a portable build? Download `owl-sidecar-0.2.0-windows-x64.zip`, extract it, and run `owl-sidecar.exe` directly.
 
 ### Linux
 
@@ -57,7 +57,7 @@ The Linux build is a command-line binary for servers, with no desktop GUI and
 Debian and Ubuntu based systems can install the package:
 
 ```sh
-sudo dpkg -i owl-sidecar-0.1.0-linux-amd64.deb   # or -linux-arm64 on ARM
+sudo dpkg -i owl-sidecar-0.2.0-linux-amd64.deb   # or -linux-arm64 on ARM
 ```
 
 For other distributions, use the tarball or the install script:
